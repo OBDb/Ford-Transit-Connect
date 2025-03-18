@@ -1,47 +1,35 @@
 { "commands": [
-{ "hdr": "720", "rax": "728", "dbg": true, "cmd": {"22": "404C"}, "freq": 30,
-  "signals": [
-    {"id": "TRANSITC_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
-  ]},
-{ "hdr": "720", "rax": "728", "dbg": true, "cmd": {"22": "6185"}, "freq": 30,
-  "signals": [
-    {"id": "TRANSITC_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
-  ]},
-{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "2813"}, "freq": 30,
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5,
   "signals": [
     {"id": "TRANSITC_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "2814"}, "freq": 30,
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 5,
   "signals": [
     {"id": "TRANSITC_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "2815"}, "freq": 30,
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5,
   "signals": [
-    {"id": "TRANSITC_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "TRANSITC_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "2816"}, "freq": 30,
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5,
   "signals": [
-    {"id": "TRANSITC_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "TRANSITC_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "2817"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2,
   "signals": [
-    {"id": "TRANSITC_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right inner tire pressure"}
-  ]},
-{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "2818"}, "freq": 30,
-  "signals": [
-    {"id": "TRANSITC_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left inner tire pressure"}
-  ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "3201"}, "freq": 30,
-  "signals": [
-    {"id": "TRANSITC_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
-  ]},
-{ "hdr": "7DF", "dbg": true, "cmd": {"22": "1310"}, "freq": 30,
-  "signals": [
-    {"id": "TRANSITC_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil temperature"}
-  ]},
-{ "hdr": "7DF", "dbg": true, "cmd": {"22": "1E12"}, "freq": 30,
-  "signals": [
-    {"id": "TRANSITC_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
+    {"id": "TRANSITC_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+          "1":  { "description": "First gear",   "value": "1" },
+          "2":  { "description": "Second gear",  "value": "2" },
+          "3":  { "description": "Third gear",   "value": "3" },
+          "4":  { "description": "Fourth gear",  "value": "4" },
+          "5":  { "description": "Fifth gear",   "value": "5" },
+          "6":  { "description": "Sixth gear",   "value": "6" },
+          "7":  { "description": "Seventh gear", "value": "7" },
+          "8":  { "description": "Eighth gear",  "value": "8" },
+          "9":  { "description": "Ninth gear",   "value": "9" },
+          "10": { "description": "Tenth gear",   "value": "10" }
+        }}
+    }
   ]}
 ]
 }

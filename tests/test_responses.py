@@ -7,33 +7,38 @@ from typing import Dict, Any
 # These will be imported from the schemas repository
 from schemas.python.can_frame import CANIDFormat
 from schemas.python.json_formatter import format_file
-from schemas.python.signals_testing import obd_testrunner
+from schemas.python.signals_testing import obd_testrunner_by_year
 
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
-    # TODO: Implement real tests below with vehicle data.
-    # 2019 model year
     {
-        "model_year": "2019",
-        "signalset": "default.json",
+        "model_year": 2020,
         "tests": [
-            # # Tire pressures
-            # ("72E05622813028C", {"F150_TP_FL": 32.6}),
-            # ("72E056228140273", {"F150_TP_FR": 31.35}),
-            # ("72E056228150291", {"F150_TP_RRO": 32.85}),
-            # ("72E05622816026E", {"F150_TP_RLO": 31.1}),
-            # ("72E056228170000", {"F150_TP_RRI": 0.0}),
-            # ("72E056228180000", {"F150_TP_RLI": 0.0}),
+            # Tire pressures
+            ("72E056228130300", {"TRANSITC_TP_FL": 38.4}),
+            ("72E0562281303EF", {"TRANSITC_TP_FL": 50.35}),
+            ("72E056228140308", {"TRANSITC_TP_FR": 38.8}),
+            ("72E0562281403D4", {"TRANSITC_TP_FR": 49}),
+            ("72E056228150308", {"TRANSITC_TP_RR": 38.8}),
+            ("72E0562281503DB", {"TRANSITC_TP_RR": 49.35}),
+            ("72E056228160300", {"TRANSITC_TP_RL": 38.4}),
+            ("72E0562281603CF", {"TRANSITC_TP_RL": 48.75}),
+
+            # Gear
+            ("7E804621E1201", {"TRANSITC_GEAR": "1"}),
+            ("7E804621E1202", {"TRANSITC_GEAR": "2"}),
+            ("7E804621E1203", {"TRANSITC_GEAR": "3"}),
+            ("7E804621E1204", {"TRANSITC_GEAR": "4"}),
+            ("7E804621E1205", {"TRANSITC_GEAR": "5"}),
+            ("7E804621E1206", {"TRANSITC_GEAR": "6"}),
+            ("7E804621E1207", {"TRANSITC_GEAR": "7"}),
+            ("7E804621E1208", {"TRANSITC_GEAR": "8"}),
+            ("7E804621E123C", {"TRANSITC_GEAR": None}),  # TODO: What gear is this?
+            ("7E804621E1246", {"TRANSITC_GEAR": None}),  # TODO: What gear is this?
         ]
     },
 ]
-
-def load_signalset(filename: str) -> str:
-    """Load a signalset JSON file from the standard location."""
-    signalset_path = REPO_ROOT / "signalsets" / "v3" / filename
-    with open(signalset_path) as f:
-        return f.read()
 
 @pytest.mark.parametrize(
     "test_group",
@@ -42,13 +47,11 @@ def load_signalset(filename: str) -> str:
 )
 def test_signals(test_group: Dict[str, Any]):
     """Test signal decoding against known responses."""
-    signalset_json = load_signalset(test_group["signalset"])
-
     # Run each test case in the group
     for response_hex, expected_values in test_group["tests"]:
         try:
-            obd_testrunner(
-                signalset_json,
+            obd_testrunner_by_year(
+                test_group['model_year'],
                 response_hex,
                 expected_values,
                 can_id_format=CANIDFormat.ELEVEN_BIT
@@ -56,8 +59,7 @@ def test_signals(test_group: Dict[str, Any]):
         except Exception as e:
             pytest.fail(
                 f"Failed on response {response_hex} "
-                f"(Model Year: {test_group['model_year']}, "
-                f"Signalset: {test_group['signalset']}): {e}"
+                f"(Model Year: {test_group['model_year']}: {e}"
             )
 
 def get_json_files():
