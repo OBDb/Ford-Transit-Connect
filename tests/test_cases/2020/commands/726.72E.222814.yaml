@@ -1,0 +1,478 @@
+command_id: 726.72E.222814
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: '72E056228140308'
+  expected_values:
+    TRANSITC_TP_FR: 38.8
+- response: 72E05622814030A
+  expected_values:
+    TRANSITC_TP_FR: 38.9
+- response: 72E05622814030D
+  expected_values:
+    TRANSITC_TP_FR: 39.05
+- response: 72E05622814030F
+  expected_values:
+    TRANSITC_TP_FR: 39.15
+- response: '72E056228140312'
+  expected_values:
+    TRANSITC_TP_FR: 39.3
+- response: '72E056228140314'
+  expected_values:
+    TRANSITC_TP_FR: 39.4
+- response: '72E056228140317'
+  expected_values:
+    TRANSITC_TP_FR: 39.55
+- response: '72E056228140319'
+  expected_values:
+    TRANSITC_TP_FR: 39.65
+- response: 72E05622814031C
+  expected_values:
+    TRANSITC_TP_FR: 39.8
+- response: 72E05622814031E
+  expected_values:
+    TRANSITC_TP_FR: 39.9
+- response: '72E056228140321'
+  expected_values:
+    TRANSITC_TP_FR: 40.05
+- response: '72E056228140323'
+  expected_values:
+    TRANSITC_TP_FR: 40.15
+- response: '72E056228140326'
+  expected_values:
+    TRANSITC_TP_FR: 40.3
+- response: '72E056228140327'
+  expected_values:
+    TRANSITC_TP_FR: 40.35
+- response: '72E056228140328'
+  expected_values:
+    TRANSITC_TP_FR: 40.4
+- response: 72E05622814032B
+  expected_values:
+    TRANSITC_TP_FR: 40.55
+- response: 72E05622814032C
+  expected_values:
+    TRANSITC_TP_FR: 40.6
+- response: 72E05622814032D
+  expected_values:
+    TRANSITC_TP_FR: 40.65
+- response: 72E05622814032E
+  expected_values:
+    TRANSITC_TP_FR: 40.7
+- response: 72E05622814032F
+  expected_values:
+    TRANSITC_TP_FR: 40.75
+- response: '72E056228140330'
+  expected_values:
+    TRANSITC_TP_FR: 40.8
+- response: '72E056228140332'
+  expected_values:
+    TRANSITC_TP_FR: 40.9
+- response: '72E056228140333'
+  expected_values:
+    TRANSITC_TP_FR: 40.95
+- response: '72E056228140335'
+  expected_values:
+    TRANSITC_TP_FR: 41.05
+- response: '72E056228140336'
+  expected_values:
+    TRANSITC_TP_FR: 41.1
+- response: '72E056228140337'
+  expected_values:
+    TRANSITC_TP_FR: 41.15
+- response: '72E056228140338'
+  expected_values:
+    TRANSITC_TP_FR: 41.2
+- response: 72E05622814033A
+  expected_values:
+    TRANSITC_TP_FR: 41.3
+- response: 72E05622814033B
+  expected_values:
+    TRANSITC_TP_FR: 41.35
+- response: 72E05622814033C
+  expected_values:
+    TRANSITC_TP_FR: 41.4
+- response: 72E05622814033D
+  expected_values:
+    TRANSITC_TP_FR: 41.45
+- response: 72E05622814033F
+  expected_values:
+    TRANSITC_TP_FR: 41.55
+- response: '72E056228140340'
+  expected_values:
+    TRANSITC_TP_FR: 41.6
+- response: '72E056228140341'
+  expected_values:
+    TRANSITC_TP_FR: 41.65
+- response: '72E056228140342'
+  expected_values:
+    TRANSITC_TP_FR: 41.7
+- response: '72E056228140343'
+  expected_values:
+    TRANSITC_TP_FR: 41.75
+- response: '72E056228140344'
+  expected_values:
+    TRANSITC_TP_FR: 41.8
+- response: '72E056228140345'
+  expected_values:
+    TRANSITC_TP_FR: 41.85
+- response: '72E056228140346'
+  expected_values:
+    TRANSITC_TP_FR: 41.9
+- response: '72E056228140347'
+  expected_values:
+    TRANSITC_TP_FR: 41.95
+- response: '72E056228140348'
+  expected_values:
+    TRANSITC_TP_FR: 42
+- response: '72E056228140349'
+  expected_values:
+    TRANSITC_TP_FR: 42.05
+- response: 72E05622814034A
+  expected_values:
+    TRANSITC_TP_FR: 42.1
+- response: 72E05622814034B
+  expected_values:
+    TRANSITC_TP_FR: 42.15
+- response: 72E05622814034C
+  expected_values:
+    TRANSITC_TP_FR: 42.2
+- response: 72E05622814034D
+  expected_values:
+    TRANSITC_TP_FR: 42.25
+- response: 72E05622814034E
+  expected_values:
+    TRANSITC_TP_FR: 42.3
+- response: 72E05622814034F
+  expected_values:
+    TRANSITC_TP_FR: 42.35
+- response: '72E056228140350'
+  expected_values:
+    TRANSITC_TP_FR: 42.4
+- response: '72E056228140351'
+  expected_values:
+    TRANSITC_TP_FR: 42.45
+- response: '72E056228140352'
+  expected_values:
+    TRANSITC_TP_FR: 42.5
+- response: '72E056228140353'
+  expected_values:
+    TRANSITC_TP_FR: 42.55
+- response: '72E056228140354'
+  expected_values:
+    TRANSITC_TP_FR: 42.6
+- response: '72E056228140355'
+  expected_values:
+    TRANSITC_TP_FR: 42.65
+- response: '72E056228140356'
+  expected_values:
+    TRANSITC_TP_FR: 42.7
+- response: '72E056228140357'
+  expected_values:
+    TRANSITC_TP_FR: 42.75
+- response: '72E056228140358'
+  expected_values:
+    TRANSITC_TP_FR: 42.8
+- response: '72E056228140359'
+  expected_values:
+    TRANSITC_TP_FR: 42.85
+- response: 72E05622814035A
+  expected_values:
+    TRANSITC_TP_FR: 42.9
+- response: 72E05622814035B
+  expected_values:
+    TRANSITC_TP_FR: 42.95
+- response: 72E05622814035C
+  expected_values:
+    TRANSITC_TP_FR: 43
+- response: 72E05622814035D
+  expected_values:
+    TRANSITC_TP_FR: 43.05
+- response: 72E05622814035E
+  expected_values:
+    TRANSITC_TP_FR: 43.1
+- response: 72E05622814035F
+  expected_values:
+    TRANSITC_TP_FR: 43.15
+- response: '72E056228140360'
+  expected_values:
+    TRANSITC_TP_FR: 43.2
+- response: '72E056228140361'
+  expected_values:
+    TRANSITC_TP_FR: 43.25
+- response: '72E056228140362'
+  expected_values:
+    TRANSITC_TP_FR: 43.3
+- response: '72E056228140363'
+  expected_values:
+    TRANSITC_TP_FR: 43.35
+- response: '72E056228140364'
+  expected_values:
+    TRANSITC_TP_FR: 43.4
+- response: '72E056228140365'
+  expected_values:
+    TRANSITC_TP_FR: 43.45
+- response: '72E056228140366'
+  expected_values:
+    TRANSITC_TP_FR: 43.5
+- response: '72E056228140367'
+  expected_values:
+    TRANSITC_TP_FR: 43.55
+- response: '72E056228140368'
+  expected_values:
+    TRANSITC_TP_FR: 43.6
+- response: '72E056228140369'
+  expected_values:
+    TRANSITC_TP_FR: 43.65
+- response: 72E05622814036A
+  expected_values:
+    TRANSITC_TP_FR: 43.7
+- response: 72E05622814036B
+  expected_values:
+    TRANSITC_TP_FR: 43.75
+- response: 72E05622814036C
+  expected_values:
+    TRANSITC_TP_FR: 43.8
+- response: 72E05622814036D
+  expected_values:
+    TRANSITC_TP_FR: 43.85
+- response: 72E05622814036E
+  expected_values:
+    TRANSITC_TP_FR: 43.9
+- response: 72E05622814036F
+  expected_values:
+    TRANSITC_TP_FR: 43.95
+- response: '72E056228140370'
+  expected_values:
+    TRANSITC_TP_FR: 44
+- response: '72E056228140371'
+  expected_values:
+    TRANSITC_TP_FR: 44.05
+- response: '72E056228140372'
+  expected_values:
+    TRANSITC_TP_FR: 44.1
+- response: '72E056228140373'
+  expected_values:
+    TRANSITC_TP_FR: 44.15
+- response: '72E056228140374'
+  expected_values:
+    TRANSITC_TP_FR: 44.2
+- response: '72E056228140375'
+  expected_values:
+    TRANSITC_TP_FR: 44.25
+- response: '72E056228140376'
+  expected_values:
+    TRANSITC_TP_FR: 44.3
+- response: '72E056228140377'
+  expected_values:
+    TRANSITC_TP_FR: 44.35
+- response: '72E056228140378'
+  expected_values:
+    TRANSITC_TP_FR: 44.4
+- response: '72E056228140379'
+  expected_values:
+    TRANSITC_TP_FR: 44.45
+- response: 72E05622814037A
+  expected_values:
+    TRANSITC_TP_FR: 44.5
+- response: 72E05622814037B
+  expected_values:
+    TRANSITC_TP_FR: 44.55
+- response: 72E05622814037C
+  expected_values:
+    TRANSITC_TP_FR: 44.6
+- response: 72E05622814037D
+  expected_values:
+    TRANSITC_TP_FR: 44.65
+- response: 72E05622814037E
+  expected_values:
+    TRANSITC_TP_FR: 44.7
+- response: 72E05622814037F
+  expected_values:
+    TRANSITC_TP_FR: 44.75
+- response: '72E056228140380'
+  expected_values:
+    TRANSITC_TP_FR: 44.8
+- response: '72E056228140381'
+  expected_values:
+    TRANSITC_TP_FR: 44.85
+- response: '72E056228140382'
+  expected_values:
+    TRANSITC_TP_FR: 44.9
+- response: '72E056228140383'
+  expected_values:
+    TRANSITC_TP_FR: 44.95
+- response: '72E056228140384'
+  expected_values:
+    TRANSITC_TP_FR: 45
+- response: '72E056228140385'
+  expected_values:
+    TRANSITC_TP_FR: 45.05
+- response: '72E056228140386'
+  expected_values:
+    TRANSITC_TP_FR: 45.1
+- response: '72E056228140387'
+  expected_values:
+    TRANSITC_TP_FR: 45.15
+- response: '72E056228140388'
+  expected_values:
+    TRANSITC_TP_FR: 45.2
+- response: '72E056228140389'
+  expected_values:
+    TRANSITC_TP_FR: 45.25
+- response: 72E05622814038A
+  expected_values:
+    TRANSITC_TP_FR: 45.3
+- response: 72E05622814038B
+  expected_values:
+    TRANSITC_TP_FR: 45.35
+- response: 72E05622814038C
+  expected_values:
+    TRANSITC_TP_FR: 45.4
+- response: 72E05622814038D
+  expected_values:
+    TRANSITC_TP_FR: 45.45
+- response: 72E05622814038E
+  expected_values:
+    TRANSITC_TP_FR: 45.5
+- response: 72E05622814038F
+  expected_values:
+    TRANSITC_TP_FR: 45.55
+- response: '72E056228140390'
+  expected_values:
+    TRANSITC_TP_FR: 45.6
+- response: '72E056228140391'
+  expected_values:
+    TRANSITC_TP_FR: 45.65
+- response: '72E056228140392'
+  expected_values:
+    TRANSITC_TP_FR: 45.7
+- response: '72E056228140393'
+  expected_values:
+    TRANSITC_TP_FR: 45.75
+- response: '72E056228140394'
+  expected_values:
+    TRANSITC_TP_FR: 45.8
+- response: '72E056228140395'
+  expected_values:
+    TRANSITC_TP_FR: 45.85
+- response: '72E056228140396'
+  expected_values:
+    TRANSITC_TP_FR: 45.9
+- response: '72E056228140397'
+  expected_values:
+    TRANSITC_TP_FR: 45.95
+- response: '72E056228140398'
+  expected_values:
+    TRANSITC_TP_FR: 46
+- response: '72E056228140399'
+  expected_values:
+    TRANSITC_TP_FR: 46.05
+- response: 72E05622814039A
+  expected_values:
+    TRANSITC_TP_FR: 46.1
+- response: 72E05622814039B
+  expected_values:
+    TRANSITC_TP_FR: 46.15
+- response: 72E05622814039C
+  expected_values:
+    TRANSITC_TP_FR: 46.2
+- response: 72E05622814039D
+  expected_values:
+    TRANSITC_TP_FR: 46.25
+- response: 72E05622814039F
+  expected_values:
+    TRANSITC_TP_FR: 46.35
+- response: 72E0562281403A1
+  expected_values:
+    TRANSITC_TP_FR: 46.45
+- response: 72E0562281403A2
+  expected_values:
+    TRANSITC_TP_FR: 46.5
+- response: 72E0562281403A4
+  expected_values:
+    TRANSITC_TP_FR: 46.6
+- response: 72E0562281403A6
+  expected_values:
+    TRANSITC_TP_FR: 46.7
+- response: 72E0562281403A7
+  expected_values:
+    TRANSITC_TP_FR: 46.75
+- response: 72E0562281403A8
+  expected_values:
+    TRANSITC_TP_FR: 46.8
+- response: 72E0562281403A9
+  expected_values:
+    TRANSITC_TP_FR: 46.85
+- response: 72E0562281403AB
+  expected_values:
+    TRANSITC_TP_FR: 46.95
+- response: 72E0562281403AC
+  expected_values:
+    TRANSITC_TP_FR: 47
+- response: 72E0562281403AD
+  expected_values:
+    TRANSITC_TP_FR: 47.05
+- response: 72E0562281403AE
+  expected_values:
+    TRANSITC_TP_FR: 47.1
+- response: 72E0562281403B0
+  expected_values:
+    TRANSITC_TP_FR: 47.2
+- response: 72E0562281403B1
+  expected_values:
+    TRANSITC_TP_FR: 47.25
+- response: 72E0562281403B2
+  expected_values:
+    TRANSITC_TP_FR: 47.3
+- response: 72E0562281403B3
+  expected_values:
+    TRANSITC_TP_FR: 47.35
+- response: 72E0562281403B5
+  expected_values:
+    TRANSITC_TP_FR: 47.45
+- response: 72E0562281403B7
+  expected_values:
+    TRANSITC_TP_FR: 47.55
+- response: 72E0562281403B8
+  expected_values:
+    TRANSITC_TP_FR: 47.6
+- response: 72E0562281403BA
+  expected_values:
+    TRANSITC_TP_FR: 47.7
+- response: 72E0562281403BB
+  expected_values:
+    TRANSITC_TP_FR: 47.75
+- response: 72E0562281403BD
+  expected_values:
+    TRANSITC_TP_FR: 47.85
+- response: 72E0562281403BF
+  expected_values:
+    TRANSITC_TP_FR: 47.95
+- response: 72E0562281403C0
+  expected_values:
+    TRANSITC_TP_FR: 48
+- response: 72E0562281403C2
+  expected_values:
+    TRANSITC_TP_FR: 48.1
+- response: 72E0562281403C4
+  expected_values:
+    TRANSITC_TP_FR: 48.2
+- response: 72E0562281403C5
+  expected_values:
+    TRANSITC_TP_FR: 48.25
+- response: 72E0562281403C7
+  expected_values:
+    TRANSITC_TP_FR: 48.35
+- response: 72E0562281403CA
+  expected_values:
+    TRANSITC_TP_FR: 48.5
+- response: 72E0562281403CC
+  expected_values:
+    TRANSITC_TP_FR: 48.6
+- response: 72E0562281403D1
+  expected_values:
+    TRANSITC_TP_FR: 48.85
+- response: 72E0562281403D4
+  expected_values:
+    TRANSITC_TP_FR: 49
