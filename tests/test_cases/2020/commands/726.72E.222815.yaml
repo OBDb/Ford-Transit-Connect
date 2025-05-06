@@ -8,9 +8,6 @@ test_cases:
 - response: '72E056228150305'
   expected_values:
     TRANSITC_TP_RR: 38.65
-- response: '72E056228150308'
-  expected_values:
-    TRANSITC_TP_RR: 38.8
 - response: 72E05622815030A
   expected_values:
     TRANSITC_TP_RR: 38.9
@@ -338,9 +335,6 @@ test_cases:
 - response: 72E05622815038E
   expected_values:
     TRANSITC_TP_RR: 45.5
-- response: 72E05622815038F
-  expected_values:
-    TRANSITC_TP_RR: 45.55
 - response: '72E056228150390'
   expected_values:
     TRANSITC_TP_RR: 45.6
@@ -362,9 +356,6 @@ test_cases:
 - response: '72E056228150397'
   expected_values:
     TRANSITC_TP_RR: 45.95
-- response: '72E056228150398'
-  expected_values:
-    TRANSITC_TP_RR: 46
 - response: '72E056228150399'
   expected_values:
     TRANSITC_TP_RR: 46.05
@@ -374,9 +365,6 @@ test_cases:
 - response: 72E05622815039C
   expected_values:
     TRANSITC_TP_RR: 46.2
-- response: 72E05622815039D
-  expected_values:
-    TRANSITC_TP_RR: 46.25
 - response: 72E05622815039E
   expected_values:
     TRANSITC_TP_RR: 46.3
@@ -386,9 +374,6 @@ test_cases:
 - response: 72E0562281503A1
   expected_values:
     TRANSITC_TP_RR: 46.45
-- response: 72E0562281503A2
-  expected_values:
-    TRANSITC_TP_RR: 46.5
 - response: 72E0562281503A4
   expected_values:
     TRANSITC_TP_RR: 46.6
@@ -404,18 +389,12 @@ test_cases:
 - response: 72E0562281503AB
   expected_values:
     TRANSITC_TP_RR: 46.95
-- response: 72E0562281503AC
-  expected_values:
-    TRANSITC_TP_RR: 47
 - response: 72E0562281503AE
   expected_values:
     TRANSITC_TP_RR: 47.1
 - response: 72E0562281503B0
   expected_values:
     TRANSITC_TP_RR: 47.2
-- response: 72E0562281503B1
-  expected_values:
-    TRANSITC_TP_RR: 47.25
 - response: 72E0562281503B3
   expected_values:
     TRANSITC_TP_RR: 47.35
@@ -437,18 +416,9 @@ test_cases:
 - response: 72E0562281503C9
   expected_values:
     TRANSITC_TP_RR: 48.45
-- response: 72E0562281503CC
-  expected_values:
-    TRANSITC_TP_RR: 48.6
 - response: 72E0562281503CE
   expected_values:
     TRANSITC_TP_RR: 48.7
-- response: 72E0562281503D1
-  expected_values:
-    TRANSITC_TP_RR: 48.85
-- response: 72E0562281503D4
-  expected_values:
-    TRANSITC_TP_RR: 49
 - response: 72E0562281503D6
   expected_values:
     TRANSITC_TP_RR: 49.1

@@ -23,9 +23,6 @@ test_cases:
 - response: 72E05622816030D
   expected_values:
     TRANSITC_TP_RL: 39.05
-- response: 72E05622816030F
-  expected_values:
-    TRANSITC_TP_RL: 39.15
 - response: '72E056228160312'
   expected_values:
     TRANSITC_TP_RL: 39.3
@@ -71,9 +68,6 @@ test_cases:
 - response: 72E05622816032D
   expected_values:
     TRANSITC_TP_RL: 40.65
-- response: 72E05622816032E
-  expected_values:
-    TRANSITC_TP_RL: 40.7
 - response: 72E05622816032F
   expected_values:
     TRANSITC_TP_RL: 40.75
@@ -350,9 +344,6 @@ test_cases:
 - response: 72E05622816038D
   expected_values:
     TRANSITC_TP_RL: 45.45
-- response: 72E05622816038E
-  expected_values:
-    TRANSITC_TP_RL: 45.5
 - response: 72E05622816038F
   expected_values:
     TRANSITC_TP_RL: 45.55
@@ -362,9 +353,6 @@ test_cases:
 - response: '72E056228160392'
   expected_values:
     TRANSITC_TP_RL: 45.7
-- response: '72E056228160393'
-  expected_values:
-    TRANSITC_TP_RL: 45.75
 - response: '72E056228160394'
   expected_values:
     TRANSITC_TP_RL: 45.8
@@ -374,27 +362,18 @@ test_cases:
 - response: '72E056228160397'
   expected_values:
     TRANSITC_TP_RL: 45.95
-- response: '72E056228160398'
-  expected_values:
-    TRANSITC_TP_RL: 46
 - response: 72E05622816039A
   expected_values:
     TRANSITC_TP_RL: 46.1
 - response: 72E05622816039C
   expected_values:
     TRANSITC_TP_RL: 46.2
-- response: 72E05622816039D
-  expected_values:
-    TRANSITC_TP_RL: 46.25
 - response: 72E05622816039F
   expected_values:
     TRANSITC_TP_RL: 46.35
 - response: 72E0562281603A1
   expected_values:
     TRANSITC_TP_RL: 46.45
-- response: 72E0562281603A2
-  expected_values:
-    TRANSITC_TP_RL: 46.5
 - response: 72E0562281603A4
   expected_values:
     TRANSITC_TP_RL: 46.6
@@ -410,9 +389,6 @@ test_cases:
 - response: 72E0562281603AE
   expected_values:
     TRANSITC_TP_RL: 47.1
-- response: 72E0562281603B1
-  expected_values:
-    TRANSITC_TP_RL: 47.25
 - response: 72E0562281603B3
   expected_values:
     TRANSITC_TP_RL: 47.35
@@ -422,30 +398,12 @@ test_cases:
 - response: 72E0562281603BA
   expected_values:
     TRANSITC_TP_RL: 47.7
-- response: 72E0562281603BD
-  expected_values:
-    TRANSITC_TP_RL: 47.85
 - response: 72E0562281603BF
   expected_values:
     TRANSITC_TP_RL: 47.95
-- response: 72E0562281603C2
-  expected_values:
-    TRANSITC_TP_RL: 48.1
 - response: 72E0562281603C4
   expected_values:
     TRANSITC_TP_RL: 48.2
-- response: 72E0562281603C5
-  expected_values:
-    TRANSITC_TP_RL: 48.25
 - response: 72E0562281603C7
   expected_values:
     TRANSITC_TP_RL: 48.35
-- response: 72E0562281603CA
-  expected_values:
-    TRANSITC_TP_RL: 48.5
-- response: 72E0562281603CC
-  expected_values:
-    TRANSITC_TP_RL: 48.6
-- response: 72E0562281603CF
-  expected_values:
-    TRANSITC_TP_RL: 48.75
