@@ -60,5 +60,10 @@ unsupported_commands_by_ecu:
   7DF:
   - 7DF.221310
   - 7DF.221E12
+  7E0:
+  - 7E0.7E8.22E00A
   7E4:
   - 7E4.7EC.2102
+  - 7E4.7EC.2104
+  - 7E4.7EC.2105
+  - 7E4.7EC.22010C
