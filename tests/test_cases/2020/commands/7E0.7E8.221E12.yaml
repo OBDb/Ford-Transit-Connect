@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.221E12
+test_cases:
+- response: 7E804621E1201
+  expected_values:
+    TRANSITC_GEAR: '1'
+- response: 7E804621E1208
+  expected_values:
+    TRANSITC_GEAR: '8'
+- response: |-
+    > 7DF.221E12
+    7E804621E1201
+  expected_values:
+    TRANSITC_GEAR: '1'
+- response: |-
+    > 7DF.221E12
+    7E804621E1206
+  expected_values:
+    TRANSITC_GEAR: '6'
