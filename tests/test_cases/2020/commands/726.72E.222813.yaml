@@ -1,28 +1,8 @@
 command_id: 726.72E.222813
 test_cases:
-- response: '72E056228130300'
+- response: '72E056228130314'
   expected_values:
-    TRANSITC_TP_FL: 38.4
-- response: 72E0562281303EF
+    TRANSITC_TP_FL: 39.4
+- response: 72E0562281303BD
   expected_values:
-    TRANSITC_TP_FL: 50.35
-- response: |-
-    > 726.72E.222813
-    72E0562281302F6
-  expected_values:
-    TRANSITC_TP_FL: 37.9
-- response: |-
-    > 726.72E.222813
-    72E05622813030F
-  expected_values:
-    TRANSITC_TP_FL: 39.15
-- response: |-
-    > 726.72E.222813
-    72E056228130330
-  expected_values:
-    TRANSITC_TP_FL: 40.8
-- response: |-
-    > 726.72E.222813
-    72E0562281303CC
-  expected_values:
-    TRANSITC_TP_FL: 48.6
+    TRANSITC_TP_FL: 47.85

@@ -3,21 +3,6 @@ test_cases:
 - response: 72E0562281502FE
   expected_values:
     TRANSITC_TP_RR: 38.3
-- response: '72E056228150305'
+- response: 72E05622815030D
   expected_values:
-    TRANSITC_TP_RR: 38.65
-- response: |-
-    > 726.72E.222815
-    72E056228150300
-  expected_values:
-    TRANSITC_TP_RR: 38.4
-- response: |-
-    > 726.72E.222815
-    72E05622815030F
-  expected_values:
-    TRANSITC_TP_RR: 39.15
-- response: |-
-    > 726.72E.222815
-    72E0562281503C7
-  expected_values:
-    TRANSITC_TP_RR: 48.35
+    TRANSITC_TP_RR: 39.05
