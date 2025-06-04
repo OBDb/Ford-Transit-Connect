@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "720", "dbg": true, "cmd": {"22": "404C"}, "freq": 5,
   "signals": [
-    {"id": "TRANSITCONNECT_ODO_V3", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer (Instrument panel)", "suggestedMetric": "odometer"}
+    {"id": "TRANSITCONNECT_ODO_V3", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer (instrument panel)", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "720", "dbg": true, "cmd": {"22": "6185"}, "freq": 1,
   "signals": [
@@ -17,7 +17,7 @@
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "407E"}, "freq": 1,
   "signals": [
-    {"id": "TRANSITCONNECT_EXTERIOR_LIGHT_STATE", "path": "Lights", "name": "Focus Exterior Lighting State", "fmt": {"bix": 0, "len": 1, "map": {
+    {"id": "TRANSITCONNECT_EXTERIOR_LIGHT_STATE", "path": "Lights", "name": "Exterior lighting state", "fmt": {"bix": 0, "len": 1, "map": {
           "0":   { "description": "0", "value": "0" },
           "216": { "description": "1", "value": "1" }
         }}
@@ -25,23 +25,23 @@
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "7151"}, "freq": 4,
   "signals": [
-    {"id": "TRANSITCONNECT_HIGHBEAM_STATUS", "path": "Lights", "fmt": { "len": 16, "max": 2, "unit": "offon" }, "name": "Highbeam Status"}
+    {"id": "TRANSITCONNECT_HIGHBEAM_STATUS", "path": "Lights", "fmt": { "len": 16, "max": 2, "unit": "offon" }, "name": "Highbeam status"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "C150"}, "freq": 3,
   "signals": [
-    {"id": "TRANSITCONNECT_TRUNK_OPEN",          "path": "Doors", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk Ajar?"},
-    {"id": "TRANSITCONNECT_RRD_OPEN",            "path": "Doors", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Right Door Ajar?"},
-    {"id": "TRANSITCONNECT_RLD_OPEN",            "path": "Doors", "fmt": {"bix": 13, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear Left Door Ajar?"},
-    {"id": "TRANSITCONNECT_DRIVER_DOOR_OPEN",    "path": "Doors", "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver Door Ajar"},
-    {"id": "TRANSITCONNECT_PASSENGER_DOOR_OPEN", "path": "Doors", "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger Door Ajar?"}
+    {"id": "TRANSITCONNECT_TRUNK_OPEN",          "path": "Doors", "fmt": {"bix": 11, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk ajar?"},
+    {"id": "TRANSITCONNECT_RRD_OPEN",            "path": "Doors", "fmt": {"bix": 12, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right door ajar?"},
+    {"id": "TRANSITCONNECT_RLD_OPEN",            "path": "Doors", "fmt": {"bix": 13, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left door ajar?"},
+    {"id": "TRANSITCONNECT_DRIVER_DOOR_OPEN",    "path": "Doors", "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver door ajar"},
+    {"id": "TRANSITCONNECT_PASSENGER_DOOR_OPEN", "path": "Doors", "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger door ajar?"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "C154"}, "freq": 3,
   "signals": [
-    {"id": "TRANSITCONNECT_HOOD_OPEN", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood Ajar?"}
+    {"id": "TRANSITCONNECT_HOOD_OPEN", "path": "Doors", "fmt": { "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood ajar?"}
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "C259"}, "freq": 2,
   "signals": [
-    {"id": "TRANSITCONNECT_CENTRAL_LOCK_STATUS", "path": "Doors", "name": "Lock Status", "fmt": {"len": 8, "map": {
+    {"id": "TRANSITCONNECT_CENTRAL_LOCK_STATUS", "path": "Doors", "name": "Lock status", "fmt": {"len": 8, "map": {
           "0": { "description": "Unlocked", "value": "UNLOCKED" },
           "2": { "description": "Locked",   "value": "LOCKED" }
         }}
@@ -49,7 +49,7 @@
   ]},
 { "hdr": "726", "dbg": true, "cmd": {"22": "DD01"}, "freq": 5,
   "signals": [
-    {"id": "TRANSITCONNECT_ODO_V2", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (Instrument panel)", "suggestedMetric": "odometer"}
+    {"id": "TRANSITCONNECT_ODO_V2", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (instrument panel)", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
@@ -77,7 +77,7 @@
   ]},
 { "hdr": "760", "dbg": true, "cmd": {"22": "2B00"}, "freq": 3,
   "signals": [
-    {"id": "TRANSITCONNECT_PARKING_BRAKE", "path": "Transmission", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus Parking Brake State"}
+    {"id": "TRANSITCONNECT_PARKING_BRAKE", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake state"}
   ]},
 { "hdr": "760", "dbg": true, "cmd": {"22": "3201"}, "freq": 0.25,
   "signals": [
@@ -89,7 +89,7 @@
   ]},
 { "hdr": "7DF", "cmd": {"22": "1E12"}, "freq": 30, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
-    {"id": "TRANSITCONNECT_GEAR_V2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
+    {"id": "TRANSITCONNECT_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
   ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "1E1C"}, "freq": 1,
   "signals": [
@@ -97,7 +97,7 @@
   ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "1E23"}, "freq": 30,
   "signals": [
-    {"id": "TRANSITCONNECT_GEAR_SHFT_V2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
+    {"id": "TRANSITCONNECT_GEAR_SHFT_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
   ]},
 { "hdr": "7DF", "dbg": true, "cmd": {"22": "F42F"}, "freq": 30,
   "signals": [
@@ -117,7 +117,7 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "030F"}, "freq": 0.25,
   "signals": [
-    {"id": "TRANSITCONNECT_CL", "fmt": { "len": 16, "max": 5, "mul": 0.0000305176, "unit": "scalar" }, "name": "Commanded lambda", "description": "The ratio of of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
+    {"id": "TRANSITCONNECT_CL", "fmt": { "len": 16, "max": 1.9999, "mul": 0.0000305176, "unit": "scalar" }, "name": "Commanded lambda", "description": "The ratio of of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0316"}, "freq": 0.25,
   "signals": [
@@ -149,7 +149,7 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "032B"}, "freq": 0.25,
   "signals": [
-    {"id": "TRANSITCONNECT_ACC_POS", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator Pedal Position"}
+    {"id": "TRANSITCONNECT_ACC_POS", "fmt": { "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0338"}, "freq": 0.25,
   "signals": [
@@ -217,7 +217,7 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "1E12"}, "freq": 2,
   "signals": [
-    {"id": "TRANSITCONNECT_GEAR", "path": "Engine", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+    {"id": "TRANSITCONNECT_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
           "2":  { "description": "Second gear",  "value": "2" },
           "3":  { "description": "Third gear",   "value": "3" },
@@ -237,7 +237,7 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "1E23"}, "freq": 2,
   "signals": [
-    {"id": "TRANSITCONNECT_GEAR_SHFT", "path": "Engine", "name": "Shift gear", "fmt": {"len": 8, "map": {
+    {"id": "TRANSITCONNECT_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "10": { "description": "Manual",  "value": "MANUAL" },
           "46": { "description": "Drive",   "value": "DRIVE" },
           "50": { "description": "Neutral", "value": "NEUTRAL" },
@@ -277,49 +277,6 @@
 { "hdr": "7E2", "fcm1": true, "dbg": true, "cmd": {"22": "DD05"}, "freq": 5,
   "signals": [
     {"id": "TRANSITCONNECT_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Exterior temperature"}
-  ]},
-{ "hdr": "7E4", "fcm1": true, "dbg": true, "cmd": {"22": "4800"}, "freq": 10,
-  "signals": [
-    {"id": "TRANSITCONNECT_HVBAT_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "HV battery temperature"}
-  ]},
-{ "hdr": "7E4", "fcm1": true, "dbg": true, "cmd": {"22": "4801"}, "freq": 1,
-  "signals": [
-    {"id": "TRANSITCONNECT_HVBAT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 500, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge", "description": "High resolution state of charge."}
-  ]},
-{ "hdr": "7E4", "fcm1": true, "dbg": true, "cmd": {"22": "480D"}, "freq": 1,
-  "signals": [
-    {"id": "TRANSITCONNECT_HVBAT_V", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "volts" }, "name": "HV battery voltage"}
-  ]},
-{ "hdr": "7E4", "fcm1": true, "dbg": true, "cmd": {"22": "4810"}, "freq": 5,
-  "signals": [
-    {"id": "TRANSITCONNECT_HVBAT_AGE", "path": "Battery", "fmt": { "len": 16, "max": 235926, "mul": 720, "div": 200, "unit": "hours" }, "name": "HV battery age"}
-  ]},
-{ "hdr": "7E4", "fcm1": true, "dbg": true, "cmd": {"22": "4845"}, "freq": 1,
-  "signals": [
-    {"id": "TRANSITCONNECT_HVBAT_SOC_DISP", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge", "description": "The state of charge displayed on the vehicle's dashboard."}
-  ]},
-{ "hdr": "7E4", "fcm1": true, "dbg": true, "cmd": {"22": "4848"}, "freq": 5,
-  "signals": [
-    {"id": "TRANSITCONNECT_HVBAT_KWH", "path": "Battery", "fmt": { "len": 16, "max": 131.07, "div": 500, "unit": "kilowattHours" }, "name": "HV battery energy"}
-  ]},
-{ "hdr": "7E4", "fcm1": true, "dbg": true, "cmd": {"22": "484F"}, "freq": 5,
-  "signals": [
-    {"id": "TRANSITCONNECT_CHRG_STATE", "path": "Battery", "name": "Charging state", "suggestedMetric": "isCharging", "fmt": {"len": 8, "map": {
-          "0": { "description": "Not ready",        "value": "NOT_READY" },
-          "1": { "description": "Ready",            "value": "READY" },
-          "2": { "description": "Fault",            "value": "FAULT" },
-          "3": { "description": "Wait Check",       "value": "WAIT" },
-          "4": { "description": "Pre-condition",    "value": "PRE_COND" },
-          "5": { "description": "Charging",         "value": "CHARGING" },
-          "6": { "description": "Done",             "value": "DONE" },
-          "7": { "description": "External Charger", "value": "EXT" },
-          "8": { "description": "Initializing",     "value": "INIT" }
-        }}
-    }
-  ]},
-{ "hdr": "7E4", "fcm1": true, "dbg": true, "cmd": {"22": "490C"}, "freq": 3600,
-  "signals": [
-    {"id": "TRANSITCONNECT_HVBAT_SOH", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery state of health", "suggestedMetric": "stateOfHealth"}
   ]},
 { "hdr": "7E6", "fcm1": true, "dbg": true, "cmd": {"22": "1E1C"}, "freq": 5,
   "signals": [
