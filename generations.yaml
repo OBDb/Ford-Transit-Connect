@@ -1,0 +1,28 @@
+references:
+  - "https://en.wikipedia.org/wiki/Ford_Transit_Connect"
+
+generations:
+  - name: "First Generation"
+    start_year: 2002
+    end_year: 2013
+    description: "Introduced in Europe in October 2002 as a replacement for car-derived vans (Ford Escort Van and Ford Fiesta Courier). Built on the Ford C170 platform with front-wheel-drive layout. Available in short wheelbase (SWB) and long wheelbase (LWB) variants with sliding side doors. Powered by 1.8L Duratorq TDCi diesel, 2.0L Endura-D TDDi diesel, and 2.0L Duratec gasoline engines."
+
+  - name: "First Generation (2009 Facelift)"
+    start_year: 2009
+    end_year: 2013
+    description: "Mid-cycle facelift introduced alongside North American导入. Features restyled front grille, deeper front bumper, and new dashboard with switchgear from the C307 Ford Focus. The North American variant was introduced for 2010 model year with 2.0L Duratec gasoline engine and 4-speed automatic transmission."
+
+  - name: "Second Generation"
+    start_year: 2012
+    end_year: 2018
+    description: "Introduced on September 6, 2012 in Amsterdam. Built on Ford's Global C-car platform with Kinetic Design language. Produced at Valencia, Spain. Available in SWB and LWB with panel van and leisure activity vehicle (LAV) body styles. Engine options include 1.0L EcoBoost I3, 1.6L EcoBoost I4, 2.5L Duratec I4, and 1.5L Duratorq diesel."
+
+  - name: "Second Generation (2019 Facelift)"
+    start_year: 2019
+    end_year: 2023
+    description: "Mid-life update for the 2019 model year with updated front fascia and redesigned dashboard. The 2.5L engine was replaced by a 2.0L direct-injection I4 (while remaining optional for LPG/CNG). New 1.5L EcoBlue diesel engine introduced, paired with an 8-speed automatic transmission. Production ended in North America after 2023 model year."
+
+  - name: "Third Generation"
+    start_year: 2021
+    end_year: null
+    description: "Rebadged fourth-generation Volkswagen Caddy as part of Ford-VW commercial vehicle partnership. Built on Volkswagen Group MQB platform at VW Poznań, Poland. Engine options include 1.5L TSI petrol, 1.5L TSI plug-in hybrid (150hp combined), and 2.0L TDI diesel. Transit Connect badging released in late 2024."
