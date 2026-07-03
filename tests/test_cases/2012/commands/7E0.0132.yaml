@@ -1,0 +1,8 @@
+command_id: 7E0.0132
+test_cases:
+- expected_values:
+    EVAP_VP: 0
+  response: '7E80441320000'
+- expected_values:
+    EVAP_VP: -0.00875
+  response: 7E8044132FFDD
