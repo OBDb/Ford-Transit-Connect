@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TRANSITC_GEAR: '3'
   response: 7E804621E1203
+- expected_values:
+    TRANSITC_GEAR: '4'
+  response: 7E804621E1204
