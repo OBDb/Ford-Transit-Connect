@@ -1,0 +1,5 @@
+command_id: 7E6.7EE.22481D
+test_cases:
+- expected_values:
+    TRANSITC_PRIMARY_MOTOR_V: 342.4
+  response: 7EE0562481D0D60

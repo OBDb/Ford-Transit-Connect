@@ -1,0 +1,5 @@
+command_id: 7E6.7EE.224824
+test_cases:
+- expected_values:
+    TRANSITC_PRI_MOTOR_INV_T: 20
+  response: 7EE056248240014

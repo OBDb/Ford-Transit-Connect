@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220604
+test_cases:
+- expected_values:
+    TRANSITC_PCM_A_C_REFRIG_P: 336
+  response: '7E8056206040150'
+- expected_values:
+    TRANSITC_PCM_A_C_REFRIG_P: 342
+  response: '7E8056206040156'

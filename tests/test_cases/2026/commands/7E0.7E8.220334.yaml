@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220334
+test_cases:
+- expected_values:
+    TRANSITC_PCM_CYL_HEAD_T_CORR: 15
+  response: 7E80562033403C0
