@@ -1,0 +1,5 @@
+command_id: 7E6.7EE.2248DE
+test_cases:
+- expected_values:
+    TRANSITC_CLT_HEATER_POWER: 0.927
+  response: 7EE056248DE039F

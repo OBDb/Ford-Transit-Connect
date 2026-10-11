@@ -1,0 +1,5 @@
+command_id: 7E6.7EE.22481C
+test_cases:
+- expected_values:
+    TRANSITC_PRI_MOTOR_TQ: -0.4
+  response: 7EE0562481CFFFC

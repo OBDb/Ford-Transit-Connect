@@ -1,0 +1,8 @@
+command_id: 7E6.7EE.221E1C
+test_cases:
+- expected_values:
+    TRANSITC_TT: 9.0625
+  response: 7EE05621E1C0091
+- expected_values:
+    TRANSITC_TT: 9.125
+  response: 7EE05621E1C0092

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F4A6
+test_cases:
+- expected_values:
+    TRANSITC_PCM_VEH_ODO: 290.8
+  response: 7E80762F4A600000B5C

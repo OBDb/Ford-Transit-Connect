@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22038F
+test_cases:
+- expected_values:
+    TRANSITC_ECT: 15
+  response: 7E80562038F03C0
