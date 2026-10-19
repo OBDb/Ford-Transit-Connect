@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220403
+test_cases:
+- expected_values:
+    TRANSITC_KS1_RAW: 74
+  response: 7E805620403004A
+- expected_values:
+    TRANSITC_KS1_RAW: 204
+  response: 7E80562040300CC

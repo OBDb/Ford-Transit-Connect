@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221E1C
+test_cases:
+- expected_values:
+    TRANSITC_TOT_7E0: 38.625
+  response: 7E805621E1C026A
+- expected_values:
+    TRANSITC_TOT_7E0: 56.0625
+  response: 7E805621E1C0381
+- expected_values:
+    TRANSITC_TOT_7E0: 58.0625
+  response: 7E805621E1C03A1

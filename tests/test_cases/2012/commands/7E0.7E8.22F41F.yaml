@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    TRANSITC_RUN_TIME: 486
+  response: 7E80562F41F01E6
+- expected_values:
+    TRANSITC_RUN_TIME: 1281
+  response: 7E80562F41F0501

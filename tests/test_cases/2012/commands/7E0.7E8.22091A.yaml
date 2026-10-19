@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22091A
+test_cases:
+- expected_values:
+    TRANSITC_ETC_ANG_DES: 2.3125
+  response: 7E80562091A04A0
+- expected_values:
+    TRANSITC_ETC_ANG_DES: 2.50195
+  response: 7E80562091A0501
+- expected_values:
+    TRANSITC_ETC_ANG_DES: 33.49609
+  response: 7E80562091A42FE

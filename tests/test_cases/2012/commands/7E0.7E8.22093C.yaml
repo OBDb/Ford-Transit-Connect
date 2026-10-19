@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    TRANSITC_ETC_ANG_ACT: 2.28516
+  response: 7E80562093C0492
+- expected_values:
+    TRANSITC_ETC_ANG_ACT: 2.49219
+  response: 7E80562093C04FC
+- expected_values:
+    TRANSITC_ETC_ANG_ACT: 13.03906
+  response: 7E80562093C1A14
+- expected_values:
+    TRANSITC_ETC_ANG_ACT: 29.32422
+  response: 7E80562093C3AA6

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F443
+test_cases:
+- expected_values:
+    TRANSITC_ENG_LOAD_ACT: 18.03922
+  response: 7E80562F443002E
+- expected_values:
+    TRANSITC_ENG_LOAD_ACT: 60.78431
+  response: 7E80562F443009B

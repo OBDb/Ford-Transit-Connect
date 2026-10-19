@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220378
+test_cases:
+- expected_values:
+    TRANSITC_GEN_CTRL: 16.13287
+  response: 7E80562037814A6
+- expected_values:
+    TRANSITC_GEN_CTRL: 19.65183
+  response: '7E8056203781927'
+- expected_values:
+    TRANSITC_GEN_CTRL: 39.00456
+  response: 7E80562037831EC
+- expected_values:
+    TRANSITC_GEN_CTRL: 48.17887
+  response: 7E8056203783DAA

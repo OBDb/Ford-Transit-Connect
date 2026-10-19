@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    TRANSITC_CAT_TEMP: 429.3
+  response: 7E80562F43C1255
+- expected_values:
+    TRANSITC_CAT_TEMP: 629.9
+  response: 7E80562F43C1A2B
+- expected_values:
+    TRANSITC_CAT_TEMP: 722.3
+  response: 7E80562F43C1DC7
+- expected_values:
+    TRANSITC_CAT_TEMP: 734.4
+  response: 7E80562F43C1E40
