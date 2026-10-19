@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221505
+test_cases:
+- expected_values:
+    TRANSITC_VSS_HD: 0
+  response: '7E8056215050000'
+- expected_values:
+    TRANSITC_VSS_HD: 30.22656
+  response: 7E8056215050F1D
+- expected_values:
+    TRANSITC_VSS_HD: 83.48438
+  response: 7E80562150529BE
+- expected_values:
+    TRANSITC_VSS_HD: 83.57812
+  response: 7E80562150529CA
+- expected_values:
+    TRANSITC_VSS_HD: 84.36719
+  response: 7E8056215052A2F
+- expected_values:
+    TRANSITC_VSS_HD: 103.90625
+  response: 7E80562150533F4
+- expected_values:
+    TRANSITC_VSS_HD: 103.96094
+  response: 7E80562150533FB
+- expected_values:
+    TRANSITC_VSS_HD: 104.00781
+  response: '7E8056215053401'

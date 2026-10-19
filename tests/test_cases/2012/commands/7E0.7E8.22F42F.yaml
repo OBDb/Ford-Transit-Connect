@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F42F
+test_cases:
+- expected_values:
+    TRANSITC_FLI_7E0_7E0: 28.62745
+  response: 7E80462F42F49
+- expected_values:
+    TRANSITC_FLI_7E0_7E0: 29.01961
+  response: 7E80462F42F4A
+- expected_values:
+    TRANSITC_FLI_7E0_7E0: 30.19608
+  response: 7E80462F42F4D
+- expected_values:
+    TRANSITC_FLI_7E0_7E0: 32.94118
+  response: 7E80462F42F54

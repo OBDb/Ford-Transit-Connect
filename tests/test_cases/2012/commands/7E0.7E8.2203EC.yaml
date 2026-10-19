@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2203EC
+test_cases:
+- expected_values:
+    TRANSITC_IGN_CORR_CYL1: 0
+  response: 7E8056203EC0000
+- expected_values:
+    TRANSITC_IGN_CORR_CYL1: 2.58984
+  response: 7E8056203EC052E
+- expected_values:
+    TRANSITC_IGN_CORR_CYL1: 3.33984
+  response: 7E8056203EC06AE
+- expected_values:
+    TRANSITC_IGN_CORR_CYL1: 6.31055
+  response: 7E8056203EC0C9F
+- expected_values:
+    TRANSITC_IGN_CORR_CYL1: 7
+  response: 7E8056203EC0E00
+- expected_values:
+    TRANSITC_IGN_CORR_CYL1: 8
+  response: 7E8056203EC1000

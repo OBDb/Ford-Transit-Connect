@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22F40D
+test_cases:
+- expected_values:
+    TRANSITC_VSS: 0
+  response: 7E80462F40D00
+- expected_values:
+    TRANSITC_VSS: 21
+  response: 7E80462F40D15
+- expected_values:
+    TRANSITC_VSS: 82
+  response: 7E80462F40D52
+- expected_values:
+    TRANSITC_VSS: 83
+  response: 7E80462F40D53
+- expected_values:
+    TRANSITC_VSS: 84
+  response: 7E80462F40D54
+- expected_values:
+    TRANSITC_VSS: 103
+  response: 7E80462F40D67
+- expected_values:
+    TRANSITC_VSS: 104
+  response: 7E80462F40D68

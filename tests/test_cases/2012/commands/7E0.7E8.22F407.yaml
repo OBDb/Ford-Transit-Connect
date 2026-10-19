@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F407
+test_cases:
+- expected_values:
+    TRANSITC_LTFT: -10.15625
+  response: 7E80462F40773
+- expected_values:
+    TRANSITC_LTFT: -9.375
+  response: 7E80462F40774
+- expected_values:
+    TRANSITC_LTFT: -8.59375
+  response: 7E80462F40775
+- expected_values:
+    TRANSITC_LTFT: -7.8125
+  response: 7E80462F40776
+- expected_values:
+    TRANSITC_LTFT: -7.03125
+  response: 7E80462F40777

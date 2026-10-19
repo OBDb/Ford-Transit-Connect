@@ -1,0 +1,23 @@
+command_id: '760.223302'
+test_cases:
+- expected_values:
+    TRANSITC_BCM_STEER_ANG_ACT: -3.7
+  response: '768056233021E53'
+- expected_values:
+    TRANSITC_BCM_STEER_ANG_ACT: -2.9
+  response: 768056233021E5B
+- expected_values:
+    TRANSITC_BCM_STEER_ANG_ACT: -2.1
+  response: '768056233021E63'
+- expected_values:
+    TRANSITC_BCM_STEER_ANG_ACT: -0.5
+  response: '768056233021E73'
+- expected_values:
+    TRANSITC_BCM_STEER_ANG_ACT: 0
+  response: '768056233021E78'
+- expected_values:
+    TRANSITC_BCM_STEER_ANG_ACT: 0.4
+  response: 768056233021E7C
+- expected_values:
+    TRANSITC_BCM_STEER_ANG_ACT: 2.2
+  response: 768056233021E8E
