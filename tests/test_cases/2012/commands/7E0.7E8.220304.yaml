@@ -4,29 +4,11 @@ test_cases:
     TRANSITC_CMD_GEN_V: 14.13931
   response: 7E805620304712E
 - expected_values:
-    TRANSITC_CMD_GEN_V: 14.14078
-  response: '7E8056203047131'
-- expected_values:
-    TRANSITC_CMD_GEN_V: 14.14468
-  response: '7E8056203047139'
-- expected_values:
-    TRANSITC_CMD_GEN_V: 14.14614
-  response: 7E805620304713C
-- expected_values:
-    TRANSITC_CMD_GEN_V: 14.14761
-  response: 7E805620304713F
-- expected_values:
     TRANSITC_CMD_GEN_V: 14.24374
   response: '7E8056203047204'
 - expected_values:
-    TRANSITC_CMD_GEN_V: 14.2457
-  response: '7E8056203047208'
+    TRANSITC_CMD_GEN_V: 14.41454
+  response: '7E8056203047362'
 - expected_values:
-    TRANSITC_CMD_GEN_V: 14.24716
-  response: 7E805620304720B
-- expected_values:
-    TRANSITC_CMD_GEN_V: 14.24862
-  response: 7E805620304720E
-- expected_values:
-    TRANSITC_CMD_GEN_V: 14.25009
-  response: '7E8056203047211'
+    TRANSITC_CMD_GEN_V: 14.43358
+  response: '7E8056203047389'

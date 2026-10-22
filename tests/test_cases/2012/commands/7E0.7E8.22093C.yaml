@@ -7,8 +7,8 @@ test_cases:
     TRANSITC_ETC_ANG_ACT: 2.49219
   response: 7E80562093C04FC
 - expected_values:
-    TRANSITC_ETC_ANG_ACT: 13.03906
-  response: 7E80562093C1A14
+    TRANSITC_ETC_ANG_ACT: 4.00977
+  response: 7E80562093C0805
 - expected_values:
     TRANSITC_ETC_ANG_ACT: 29.32422
   response: 7E80562093C3AA6

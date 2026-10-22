@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220334
 test_cases:
 - expected_values:
-    TRANSITC_PCM_CYL_HEAD_T_CORR: 86.89062
-  response: 7E80562033415B9
+    TRANSITC_PCM_CYL_HEAD_T_CORR: 41.70312
+  response: 7E8056203340A6D
 - expected_values:
     TRANSITC_PCM_CYL_HEAD_T_CORR: 88
   response: '7E8056203341600'

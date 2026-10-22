@@ -10,5 +10,5 @@ test_cases:
     TRANSITC_GEN_CTRL: 39.00456
   response: 7E80562037831EC
 - expected_values:
-    TRANSITC_GEN_CTRL: 48.17887
-  response: 7E8056203783DAA
+    TRANSITC_GEN_CTRL: 47.9927
+  response: 7E8056203783D6D

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2203BD
 test_cases:
 - expected_values:
-    TRANSITC_CL_LC: 0.00061
-  response: 7E8056203BD0005
+    TRANSITC_CL_LC: 0
+  response: 7E8056203BD0000
 - expected_values:
     TRANSITC_CL_LC: -0.00488
   response: 7E8056203BDFFD8
