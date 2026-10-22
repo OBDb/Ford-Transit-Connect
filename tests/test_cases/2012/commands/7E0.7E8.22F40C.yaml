@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22F40C
 test_cases:
 - expected_values:
-    TRANSITC_RPM: 683.5
-  response: 7E80562F40C0AAE
+    TRANSITC_RPM: 666
+  response: 7E80562F40C0A68
 - expected_values:
-    TRANSITC_RPM: 705.25
-  response: 7E80562F40C0B05
+    TRANSITC_RPM: 703.75
+  response: 7E80562F40C0AFF
 - expected_values:
-    TRANSITC_RPM: 1918.75
-  response: 7E80562F40C1DFB
+    TRANSITC_RPM: 769
+  response: 7E80562F40C0C04
 - expected_values:
     TRANSITC_RPM: 2530.75
   response: 7E80562F40C278B

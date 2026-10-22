@@ -1,20 +1,8 @@
 command_id: 7E0.7E8.220338
 test_cases:
 - expected_values:
-    TRANSITC_ETC_TRIM_LRN: 0.55469
-  response: 7E805620338011C
-- expected_values:
-    TRANSITC_ETC_TRIM_LRN: 0.55664
-  response: 7E805620338011D
-- expected_values:
-    TRANSITC_ETC_TRIM_LRN: 0.61133
-  response: '7E8056203380139'
-- expected_values:
-    TRANSITC_ETC_TRIM_LRN: 0.61328
-  response: 7E805620338013A
-- expected_values:
-    TRANSITC_ETC_TRIM_LRN: 0.61523
-  response: 7E805620338013B
+    TRANSITC_ETC_TRIM_LRN: 0.54102
+  response: '7E8056203380115'
 - expected_values:
     TRANSITC_ETC_TRIM_LRN: 0.62109
   response: 7E805620338013E

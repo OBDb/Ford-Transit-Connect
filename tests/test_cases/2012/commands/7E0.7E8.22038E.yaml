@@ -16,6 +16,9 @@ test_cases:
     TRANSITC_EVAP_V: 2.422
   response: 7E80562038E0976
 - expected_values:
+    TRANSITC_EVAP_V: 2.682
+  response: 7E80562038E0A7A
+- expected_values:
     TRANSITC_EVAP_V: 2.687
   response: 7E80562038E0A7F
 - expected_values:

@@ -4,8 +4,8 @@ test_cases:
     TRANSITC_CAT_TEMP: 429.3
   response: 7E80562F43C1255
 - expected_values:
-    TRANSITC_CAT_TEMP: 629.9
-  response: 7E80562F43C1A2B
+    TRANSITC_CAT_TEMP: 472.3
+  response: 7E80562F43C1403
 - expected_values:
     TRANSITC_CAT_TEMP: 722.3
   response: 7E80562F43C1DC7

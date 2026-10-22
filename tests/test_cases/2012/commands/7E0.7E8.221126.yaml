@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.221126
 test_cases:
 - expected_values:
+    TRANSITC_ERT: 41
+  response: '7E80462112629'
+- expected_values:
+    TRANSITC_ERT: 79
+  response: 7E8046211264F
+- expected_values:
+    TRANSITC_ERT: 113
+  response: '7E80462112671'
+- expected_values:
+    TRANSITC_ERT: 147
+  response: '7E80462112693'
+- expected_values:
     TRANSITC_ERT: 255
   response: 7E804621126FF

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22038F
 test_cases:
 - expected_values:
-    TRANSITC_ECT: 86.96875
-  response: 7E80562038F15BE
+    TRANSITC_ECT: 40.95312
+  response: 7E80562038F0A3D
 - expected_values:
-    TRANSITC_ECT: 88.10938
-  response: 7E80562038F1607
+    TRANSITC_ECT: 88.01562
+  response: 7E80562038F1601
 - expected_values:
     TRANSITC_ECT: 99.98438
   response: 7E80562038F18FF

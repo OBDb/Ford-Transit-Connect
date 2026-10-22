@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22035F
 test_cases:
 - expected_values:
-    TRANSITC_RO2_V: 0.10449
-  response: 7E80562035F006B
+    TRANSITC_RO2_V: 0
+  response: 7E80562035F0000
 - expected_values:
-    TRANSITC_RO2_V: 0.4873
-  response: 7E80562035F01F3
+    TRANSITC_RO2_V: 0.49902
+  response: 7E80562035F01FF
 - expected_values:
     TRANSITC_RO2_V: 0.79492
   response: 7E80562035F032E
