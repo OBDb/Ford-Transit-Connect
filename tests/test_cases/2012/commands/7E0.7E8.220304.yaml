@@ -7,8 +7,8 @@ test_cases:
     TRANSITC_CMD_GEN_V: 14.24374
   response: '7E8056203047204'
 - expected_values:
-    TRANSITC_CMD_GEN_V: 14.41454
-  response: '7E8056203047362'
+    TRANSITC_CMD_GEN_V: 14.40674
+  response: '7E8056203047352'
 - expected_values:
     TRANSITC_CMD_GEN_V: 14.43358
   response: '7E8056203047389'

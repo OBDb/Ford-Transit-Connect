@@ -4,8 +4,8 @@ test_cases:
     TRANSITC_TOT_7E0: 18.6875
   response: 7E805621E1C012B
 - expected_values:
+    TRANSITC_TOT_7E0: 27.8125
+  response: 7E805621E1C01BD
+- expected_values:
     TRANSITC_TOT_7E0: 56.0625
   response: 7E805621E1C0381
-- expected_values:
-    TRANSITC_TOT_7E0: 58.0625
-  response: 7E805621E1C03A1
