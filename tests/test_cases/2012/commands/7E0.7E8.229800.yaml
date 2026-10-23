@@ -4,8 +4,8 @@ test_cases:
     TRANSITC_AC_P_SENS_V: 1.14746
   response: '7E8056298000497'
 - expected_values:
-    TRANSITC_AC_P_SENS_V: 1.20117
-  response: 7E80562980004CE
+    TRANSITC_AC_P_SENS_V: 1.2207
+  response: 7E80562980004E2
 - expected_values:
     TRANSITC_AC_P_SENS_V: 1.28418
   response: '7E8056298000523'
