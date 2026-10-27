@@ -31,3 +31,16 @@ supported_commands_by_ecu:
   - 0143:LOAD_ABS
   - 0144:EQ_RAT
   - 0145:TP_R
+  - 0146:AAT
+  - 0149:APP_D
+  - 014A:APP_E
+  - 014D:MIL_TIME
+  - 014E:CLR_TIME
+  - 0151:FUEL_TYP
+  - 0159:FRP_ABS
+  - 015C:EOT
+  - 015D:FUEL_TIMING
+  - 015E:FUEL_RATE
+  - 0161:TQ_DD
+  - 0162:TQ_ACT
+  - 0163:TQ_REF
