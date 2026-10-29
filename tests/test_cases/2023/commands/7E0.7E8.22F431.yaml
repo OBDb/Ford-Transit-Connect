@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    TRANSITC_DIST_DTC_CLR: 11164
+  response: 7E80562F4312B9C
+- expected_values:
+    TRANSITC_DIST_DTC_CLR: 11263
+  response: 7E80562F4312BFF
+- expected_values:
+    TRANSITC_DIST_DTC_CLR: 11264
+  response: 7E80562F4312C00

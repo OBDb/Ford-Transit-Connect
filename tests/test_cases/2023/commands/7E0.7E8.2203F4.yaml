@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2203F4
+test_cases:
+- expected_values:
+    TRANSITC_EXH_GAS_T_1: 100
+  response: 7E8046203F414
+- expected_values:
+    TRANSITC_EXH_GAS_T_1: 440
+  response: 7E8046203F458

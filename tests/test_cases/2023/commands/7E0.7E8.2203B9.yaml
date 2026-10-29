@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2203B9
+test_cases:
+- expected_values:
+    TRANSITC_FAN_SPD_DES: 7.49523
+  response: 7E8056203B90998
+- expected_values:
+    TRANSITC_FAN_SPD_DES: 7.54406
+  response: 7E8056203B909A8
+- expected_values:
+    TRANSITC_FAN_SPD_DES: 7.55627
+  response: 7E8056203B909AC
+- expected_values:
+    TRANSITC_FAN_SPD_DES: 13.63546
+  response: 7E8056203B91174
+- expected_values:
+    TRANSITC_FAN_SPD_DES: 13.90402
+  response: 7E8056203B911CC

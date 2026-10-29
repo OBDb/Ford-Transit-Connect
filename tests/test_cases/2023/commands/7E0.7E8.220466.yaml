@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220466
+test_cases:
+- expected_values:
+    TRANSITC_TIP_DES_ABS: 14.16115
+  response: 7E80562046631FF
+- expected_values:
+    TRANSITC_TIP_DES_ABS: 14.74202
+  response: 7E805620466340C
+- expected_values:
+    TRANSITC_TIP_DES_ABS: 37.104
+  response: 7E80562046682FF

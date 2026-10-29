@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22052E
+test_cases:
+- expected_values:
+    TRANSITC_EGR_OPEN: 0
+  response: 7E80462052E00
+- expected_values:
+    TRANSITC_EGR_OPEN: 60.39216
+  response: 7E80462052E9A

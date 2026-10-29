@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2204AC
+test_cases:
+- expected_values:
+    TRANSITC_CYL_3_FUEL_QTY: 0
+  response: 7E8076204AC00000000
+- expected_values:
+    TRANSITC_CYL_3_FUEL_QTY: 14.07999
+  response: 7E8076204AC001B7FFF
+- expected_values:
+    TRANSITC_CYL_3_FUEL_QTY: 15.87199
+  response: 7E8076204AC001EFFFF
+- expected_values:
+    TRANSITC_CYL_3_FUEL_QTY: 42.52671
+  response: 7E8076204AC00530F5B

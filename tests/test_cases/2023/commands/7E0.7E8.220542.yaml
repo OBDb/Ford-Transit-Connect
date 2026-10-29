@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220542
+test_cases:
+- expected_values:
+    TRANSITC_DIST_SINCE_OIL: 4484
+  response: '7E8056205421184'
+- expected_values:
+    TRANSITC_DIST_SINCE_OIL: 4601
+  response: 7E80562054211F9

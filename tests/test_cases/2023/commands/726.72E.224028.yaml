@@ -1,0 +1,11 @@
+command_id: 726.72E.224028
+test_cases:
+- expected_values:
+    TRANSITC_12V_SOC: 76
+  response: 72E046240284C
+- expected_values:
+    TRANSITC_12V_SOC: 77
+  response: 72E046240284D
+- expected_values:
+    TRANSITC_12V_SOC: 78
+  response: 72E046240284E
