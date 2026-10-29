@@ -1,0 +1,5 @@
+command_id: 726.72E.22401E
+test_cases:
+- expected_values:
+    TRANSITC_NORM_CUM_CHG_IGN_ON: 13.7
+  response: 72E0562401E0089

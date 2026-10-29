@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22DD01
+test_cases:
+- expected_values:
+    TRANSITC_ODO_7E0: 53132
+  response: 7E80662DD0100CF8C
+- expected_values:
+    TRANSITC_ODO_7E0: 53247
+  response: 7E80662DD0100CFFF
+- expected_values:
+    TRANSITC_ODO_7E0: 53248
+  response: 7E80662DD0100D000

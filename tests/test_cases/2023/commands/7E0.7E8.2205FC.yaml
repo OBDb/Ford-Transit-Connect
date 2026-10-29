@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2205FC
+test_cases:
+- expected_values:
+    TRANSITC_PCM_CYL_HEAD_T_SENS_2_RAW: 15.76562
+  response: 7E8056205FC03F1
+- expected_values:
+    TRANSITC_PCM_CYL_HEAD_T_SENS_2_RAW: 88.0625
+  response: 7E8056205FC1604
+- expected_values:
+    TRANSITC_PCM_CYL_HEAD_T_SENS_2_RAW: 99.96875
+  response: 7E8056205FC18FE
+- expected_values:
+    TRANSITC_PCM_CYL_HEAD_T_SENS_2_RAW: 104.85938
+  response: 7E8056205FC1A37

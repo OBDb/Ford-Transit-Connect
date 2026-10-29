@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220307
+test_cases:
+- expected_values:
+    TRANSITC_LPFP_DUTY: 37.98828
+  response: 7E80562030730A0
+- expected_values:
+    TRANSITC_LPFP_DUTY: 44.5282
+  response: 7E80562030738FF
+- expected_values:
+    TRANSITC_LPFP_DUTY: 45.31555
+  response: 7E8056203073A01
+- expected_values:
+    TRANSITC_LPFP_DUTY: 74.99695
+  response: 7E8056203075FFF

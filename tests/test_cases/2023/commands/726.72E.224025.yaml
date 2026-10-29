@@ -1,0 +1,8 @@
+command_id: 726.72E.224025
+test_cases:
+- expected_values:
+    TRANSITC_BAT_QUIESCENT: 39
+  response: 72E05624025081E
+- expected_values:
+    TRANSITC_BAT_QUIESCENT: 46
+  response: 72E05624025082C

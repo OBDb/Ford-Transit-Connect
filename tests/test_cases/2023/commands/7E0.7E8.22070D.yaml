@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22070D
+test_cases:
+- expected_values:
+    TRANSITC_TRANSFER_CASE_FLUID_T: 46.3125
+  response: 7E80562070D02E5
+- expected_values:
+    TRANSITC_TRANSFER_CASE_FLUID_T: 47.8125
+  response: 7E80562070D02FD

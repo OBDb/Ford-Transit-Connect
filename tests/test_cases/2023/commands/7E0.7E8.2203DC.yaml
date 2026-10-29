@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203DC
+test_cases:
+- expected_values:
+    TRANSITC_HPFP_DES: 3500
+  response: 7E8056203DC09E2
+- expected_values:
+    TRANSITC_HPFP_DES: 3500
+  response: 7E8056203DC0BFE
+- expected_values:
+    TRANSITC_HPFP_DES: 3500
+  response: 7E8056203DC1B04
+- expected_values:
+    TRANSITC_HPFP_DES: 3500
+  response: 7E8056203DC422E

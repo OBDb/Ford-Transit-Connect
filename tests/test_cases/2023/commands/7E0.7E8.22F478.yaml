@@ -1,0 +1,47 @@
+command_id: 7E0.7E8.22F478
+test_cases:
+- expected_values:
+    TRANSITC_EGT_B1: 37.3
+  response: |-
+    7E8100C62F47803057C
+    7E821057C76E476E400
+- expected_values:
+    TRANSITC_EGT_B1: 37.7
+  response: |-
+    7E8100C62F47803095D
+    7E8210C4F76E476E400
+- expected_values:
+    TRANSITC_EGT_B1: 37.8
+  response: |-
+    7E8100C62F478030A00
+    7E8210B9F76E476E400
+- expected_values:
+    TRANSITC_EGT_B1: 37.8
+  response: |-
+    7E8100C62F478030A60
+    7E8210C2076E476E400
+- expected_values:
+    TRANSITC_EGT_B1: 38
+  response: |-
+    7E8100C62F478030CFF
+    7E8210C2476E476E400
+- expected_values:
+    TRANSITC_EGT_B1: 38.3
+  response: |-
+    7E8100C62F478030F29
+    7E8210FFD76E476E400
+- expected_values:
+    TRANSITC_EGT_B1: 38.3
+  response: |-
+    7E8100C62F478030F55
+    7E821109776E476E400
+- expected_values:
+    TRANSITC_EGT_B1: 38.4
+  response: |-
+    7E8100C62F478031035
+    7E821100176E476E400
+- expected_values:
+    TRANSITC_EGT_B1: 38.6
+  response: |-
+    7E8100C62F4780312CC
+    7E821129376E476E400

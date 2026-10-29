@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22033C
+test_cases:
+- expected_values:
+    TRANSITC_TIP_V: 1.24023
+  response: 7E80562033C00FE
+- expected_values:
+    TRANSITC_TIP_V: 1.24512
+  response: 7E80562033C00FF
+- expected_values:
+    TRANSITC_TIP_V: 1.25
+  response: 7E80562033C0100
+- expected_values:
+    TRANSITC_TIP_V: 2.53418
+  response: 7E80562033C0207

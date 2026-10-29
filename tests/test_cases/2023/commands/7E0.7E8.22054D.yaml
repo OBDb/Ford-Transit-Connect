@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22054D
+test_cases:
+- expected_values:
+    TRANSITC_LPFP_SENS_V: 2.2373
+  response: 7E80562054D08F3
+- expected_values:
+    TRANSITC_LPFP_SENS_V: 2.24902
+  response: 7E80562054D08FF
+- expected_values:
+    TRANSITC_LPFP_SENS_V: 2.25195
+  response: 7E80562054D0902
