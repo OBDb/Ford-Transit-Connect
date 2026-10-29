@@ -4,5 +4,5 @@ test_cases:
     TRANSITC_SUMP_OIL_T_MEAS: 13
   response: 7E8046203F335
 - expected_values:
-    TRANSITC_SUMP_OIL_T_MEAS: 98
-  response: 7E8046203F38A
+    TRANSITC_SUMP_OIL_T_MEAS: 100
+  response: 7E8046203F38C

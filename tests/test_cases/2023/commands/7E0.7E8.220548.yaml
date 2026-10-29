@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.220548
 test_cases:
 - expected_values:
-    TRANSITC_LPFP_ACT: 18.05761
-  response: 7E80562054800F9
+    TRANSITC_LPFP_ACT: 16.53468
+  response: 7E80562054800E4
+- expected_values:
+    TRANSITC_LPFP_ACT: 18.27517
+  response: 7E80562054800FC
 - expected_values:
     TRANSITC_LPFP_ACT: 18.78282
   response: '7E8056205480103'

@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22033E
 test_cases:
 - expected_values:
-    TRANSITC_TIP_ABS: 13.86352
-  response: 7E80562033E30F2
-- expected_values:
-    TRANSITC_TIP_ABS: 15.00867
-  response: 7E80562033E34FD
+    TRANSITC_TIP_ABS: 6.55447
+  response: 7E80562033E1724
 - expected_values:
     TRANSITC_TIP_ABS: 17.5612
   response: 7E80562033E3E00
 - expected_values:
-    TRANSITC_TIP_ABS: 38.64747
-  response: 7E80562033E8872
+    TRANSITC_TIP_ABS: 23.50713
+  response: 7E80562033E52FE
+- expected_values:
+    TRANSITC_TIP_ABS: 39.27149
+  response: 7E80562033E8AA6

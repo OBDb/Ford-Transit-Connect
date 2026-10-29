@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     TRANSITC_12V_SOC: 78
   response: 72E046240284E
+- expected_values:
+    TRANSITC_12V_SOC: 79
+  response: 72E046240284F
+- expected_values:
+    TRANSITC_12V_SOC: 80
+  response: '72E0462402850'
+- expected_values:
+    TRANSITC_12V_SOC: 81
+  response: '72E0462402851'

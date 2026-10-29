@@ -10,5 +10,5 @@ test_cases:
     TRANSITC_ECT: 88.0625
   response: 7E80562038F1604
 - expected_values:
-    TRANSITC_ECT: 96.0625
-  response: 7E80562038F1804
+    TRANSITC_ECT: 100.35938
+  response: 7E80562038F1917

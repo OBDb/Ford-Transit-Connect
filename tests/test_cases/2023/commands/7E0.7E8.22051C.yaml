@@ -4,5 +4,5 @@ test_cases:
     TRANSITC_CHG_AIR_T: 12
   response: 7E80462051C34
 - expected_values:
-    TRANSITC_CHG_AIR_T: 45
-  response: 7E80462051C55
+    TRANSITC_CHG_AIR_T: 50
+  response: 7E80462051C5A

@@ -11,25 +11,25 @@ test_cases:
     7E8100C62F47803095D
     7E8210C4F76E476E400
 - expected_values:
+    TRANSITC_EGT_B1: 37.7
+  response: |-
+    7E8100C62F4780309B6
+    7E8210A5076E476E400
+- expected_values:
     TRANSITC_EGT_B1: 37.8
   response: |-
     7E8100C62F478030A00
     7E8210B9F76E476E400
 - expected_values:
-    TRANSITC_EGT_B1: 37.8
+    TRANSITC_EGT_B1: 38
   response: |-
-    7E8100C62F478030A60
-    7E8210C2076E476E400
+    7E8100C62F478030C99
+    7E82110AC76E476E400
 - expected_values:
     TRANSITC_EGT_B1: 38
   response: |-
     7E8100C62F478030CFF
     7E8210C2476E476E400
-- expected_values:
-    TRANSITC_EGT_B1: 38.1
-  response: |-
-    7E8100C62F478030D33
-    7E821113976E476E400
 - expected_values:
     TRANSITC_EGT_B1: 38.2
   response: |-

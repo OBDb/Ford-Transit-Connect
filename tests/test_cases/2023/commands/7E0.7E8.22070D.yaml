@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TRANSITC_TRANSFER_CASE_FLUID_T: 47.8125
   response: 7E80562070D02FD
+- expected_values:
+    TRANSITC_TRANSFER_CASE_FLUID_T: 48.0625
+  response: 7E80562070D0301

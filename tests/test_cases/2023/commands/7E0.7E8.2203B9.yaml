@@ -4,17 +4,11 @@ test_cases:
     TRANSITC_FAN_SPD_DES: 7.49523
   response: 7E8056203B90998
 - expected_values:
-    TRANSITC_FAN_SPD_DES: 7.54406
-  response: 7E8056203B909A8
+    TRANSITC_FAN_SPD_DES: 10.90105
+  response: 7E8056203B90DF4
 - expected_values:
-    TRANSITC_FAN_SPD_DES: 7.55627
-  response: 7E8056203B909AC
+    TRANSITC_FAN_SPD_DES: 11.71893
+  response: 7E8056203B90F00
 - expected_values:
-    TRANSITC_FAN_SPD_DES: 11.96307
-  response: 7E8056203B90F50
-- expected_values:
-    TRANSITC_FAN_SPD_DES: 13.63546
-  response: 7E8056203B91174
-- expected_values:
-    TRANSITC_FAN_SPD_DES: 13.90402
-  response: 7E8056203B911CC
+    TRANSITC_FAN_SPD_DES: 26.19669
+  response: 7E8056203B92188

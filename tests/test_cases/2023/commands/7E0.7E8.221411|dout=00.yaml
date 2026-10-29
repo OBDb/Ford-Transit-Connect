@@ -4,8 +4,8 @@ test_cases:
     TRANSITC_VOLUME_FUEL_DES: 0
   response: '7E8056214110000'
 - expected_values:
-    TRANSITC_VOLUME_FUEL_DES: 31.6875
-  response: 7E80562141101FB
+    TRANSITC_VOLUME_FUEL_DES: 31.875
+  response: 7E80562141101FE
 - expected_values:
     TRANSITC_VOLUME_FUEL_DES: 48.1875
   response: '7E8056214110303'

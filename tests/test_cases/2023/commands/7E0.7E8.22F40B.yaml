@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F40B
 test_cases:
 - expected_values:
-    TRANSITC_MAP: 14.50389
-  response: 7E80462F40B64
+    TRANSITC_MAP: 6.52675
+  response: 7E80462F40B2D
 - expected_values:
     TRANSITC_MAP: 36
   response: 7E80462F40BFF
