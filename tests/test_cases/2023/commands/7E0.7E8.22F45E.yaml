@@ -4,8 +4,8 @@ test_cases:
     TRANSITC_ENG_FUEL_RATE: 0
   response: 7E80562F45E0000
 - expected_values:
-    TRANSITC_ENG_FUEL_RATE: 12.4
-  response: 7E80562F45E00F8
+    TRANSITC_ENG_FUEL_RATE: 12.65
+  response: 7E80562F45E00FD
 - expected_values:
     TRANSITC_ENG_FUEL_RATE: 12.9
   response: 7E80562F45E0102

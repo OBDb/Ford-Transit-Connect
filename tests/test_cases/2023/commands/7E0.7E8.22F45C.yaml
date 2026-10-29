@@ -4,5 +4,5 @@ test_cases:
     TRANSITC_EOT_F45C: 13
   response: 7E80462F45C35
 - expected_values:
-    TRANSITC_EOT_F45C: 98
-  response: 7E80462F45C8A
+    TRANSITC_EOT_F45C: 100
+  response: 7E80462F45C8C

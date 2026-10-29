@@ -7,5 +7,5 @@ test_cases:
     TRANSITC_TIP_DES_ABS: 14.74202
   response: 7E805620466340C
 - expected_values:
-    TRANSITC_TIP_DES_ABS: 37.30316
-  response: 7E80562046683B3
+    TRANSITC_TIP_DES_ABS: 37.27439
+  response: '7E8056204668399'

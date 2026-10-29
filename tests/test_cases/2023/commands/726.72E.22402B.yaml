@@ -1,8 +1,8 @@
 command_id: 726.72E.22402B
 test_cases:
 - expected_values:
-    TRANSITC_VEH_BAT_CURRENT: -28
-  response: 72E0462402B63
+    TRANSITC_VEH_BAT_CURRENT: -34
+  response: 72E0462402B5D
 - expected_values:
-    TRANSITC_VEH_BAT_CURRENT: 26
-  response: 72E0462402B99
+    TRANSITC_VEH_BAT_CURRENT: 44
+  response: 72E0462402BAB

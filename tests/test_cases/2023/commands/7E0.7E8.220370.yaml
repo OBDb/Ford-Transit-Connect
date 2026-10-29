@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220370
 test_cases:
 - expected_values:
-    TRANSITC_MAP_HIRES: 99.25
-  response: 7E805620370018D
+    TRANSITC_MAP_HIRES: 89.25
+  response: '7E8056203700165'
 - expected_values:
     TRANSITC_MAP_HIRES: 127.75
   response: 7E80562037001FF
@@ -10,5 +10,5 @@ test_cases:
     TRANSITC_MAP_HIRES: 192.25
   response: '7E8056203700301'
 - expected_values:
-    TRANSITC_MAP_HIRES: 258.25
-  response: '7E8056203700409'
+    TRANSITC_MAP_HIRES: 257.25
+  response: '7E8056203700405'

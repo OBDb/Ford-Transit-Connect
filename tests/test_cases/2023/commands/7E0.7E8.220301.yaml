@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220301
 test_cases:
 - expected_values:
-    TRANSITC_MAP_V: 1.12109
-  response: 7E805620301047C
+    TRANSITC_MAP_V: 1.08496
+  response: '7E8056203010457'
 - expected_values:
     TRANSITC_MAP_V: 1.24902
   response: 7E80562030104FF
@@ -10,5 +10,5 @@ test_cases:
     TRANSITC_MAP_V: 1.25
   response: '7E8056203010500'
 - expected_values:
-    TRANSITC_MAP_V: 3.29395
-  response: 7E8056203010D2D
+    TRANSITC_MAP_V: 3.27246
+  response: 7E8056203010D17

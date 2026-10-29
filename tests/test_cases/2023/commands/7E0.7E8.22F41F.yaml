@@ -4,11 +4,11 @@ test_cases:
     TRANSITC_RUN_TIME: 14
   response: 7E80562F41F000E
 - expected_values:
-    TRANSITC_RUN_TIME: 254
-  response: 7E80562F41F00FE
-- expected_values:
     TRANSITC_RUN_TIME: 512
   response: 7E80562F41F0200
 - expected_values:
-    TRANSITC_RUN_TIME: 5385
-  response: 7E80562F41F1509
+    TRANSITC_RUN_TIME: 2303
+  response: 7E80562F41F08FF
+- expected_values:
+    TRANSITC_RUN_TIME: 6679
+  response: 7E80562F41F1A17

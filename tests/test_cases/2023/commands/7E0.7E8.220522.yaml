@@ -4,5 +4,5 @@ test_cases:
     TRANSITC_FUEL_T: 12
   response: '7E80462052234'
 - expected_values:
-    TRANSITC_FUEL_T: 32
-  response: '7E80462052248'
+    TRANSITC_FUEL_T: 39
+  response: 7E8046205224F

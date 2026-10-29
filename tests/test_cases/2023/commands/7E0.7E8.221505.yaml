@@ -4,8 +4,8 @@ test_cases:
     TRANSITC_VSS_HD: 0
   response: '7E8056215050000'
 - expected_values:
-    TRANSITC_VSS_HD: 103.99219
-  response: 7E80562150533FF
+    TRANSITC_VSS_HD: 11.99219
+  response: 7E80562150505FF
 - expected_values:
-    TRANSITC_VSS_HD: 118.20312
-  response: 7E8056215053B1A
+    TRANSITC_VSS_HD: 120.19531
+  response: 7E8056215053C19

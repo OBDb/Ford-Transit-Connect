@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221279
 test_cases:
 - expected_values:
-    TRANSITC_IAT_SENS_V: 2.06745
-  response: 7E80562127901A7
+    TRANSITC_IAT_SENS_V: 2.01369
+  response: 7E805621279019C
 - expected_values:
     TRANSITC_IAT_SENS_V: 2.49756
   response: 7E80562127901FF
 - expected_values:
-    TRANSITC_IAT_SENS_V: 2.50733
-  response: '7E8056212790201'
+    TRANSITC_IAT_SENS_V: 2.50244
+  response: '7E8056212790200'
