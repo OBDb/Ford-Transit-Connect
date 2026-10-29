@@ -5,4 +5,4 @@ test_cases:
   response: 7E80462F40B64
 - expected_values:
     TRANSITC_MAP: 36
-  response: 7E80462F40BFC
+  response: 7E80462F40BFF

@@ -4,5 +4,8 @@ test_cases:
     TRANSITC_DIST_SINCE_OIL: 4484
   response: '7E8056205421184'
 - expected_values:
-    TRANSITC_DIST_SINCE_OIL: 4601
-  response: 7E80562054211F9
+    TRANSITC_DIST_SINCE_OIL: 4607
+  response: 7E80562054211FF
+- expected_values:
+    TRANSITC_DIST_SINCE_OIL: 4608
+  response: '7E8056205421200'

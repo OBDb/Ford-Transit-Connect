@@ -7,5 +7,5 @@ test_cases:
     TRANSITC_RPM: 1599.5
   response: 7E80562F40C18FE
 - expected_values:
-    TRANSITC_RPM: 3238
-  response: 7E80562F40C3298
+    TRANSITC_RPM: 3656.5
+  response: 7E80562F40C3922
