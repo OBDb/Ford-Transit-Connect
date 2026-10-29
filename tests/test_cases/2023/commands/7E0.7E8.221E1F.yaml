@@ -4,6 +4,9 @@ test_cases:
     TRANSITC_GEAR_ENG: 0
   response: 7E804621E1F00
 - expected_values:
+    TRANSITC_GEAR_ENG: 1
+  response: 7E804621E1F01
+- expected_values:
     TRANSITC_GEAR_ENG: 2
   response: 7E804621E1F02
 - expected_values:

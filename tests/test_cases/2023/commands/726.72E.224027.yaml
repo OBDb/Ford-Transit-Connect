@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TRANSITC_12V_AGE: 5256
   response: 72E0562402700DB
+- expected_values:
+    TRANSITC_12V_AGE: 5280
+  response: 72E0562402700DC

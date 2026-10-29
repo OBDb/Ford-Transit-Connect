@@ -4,5 +4,5 @@ test_cases:
     TRANSITC_ACC_POS: 0
   response: 7E80462032B00
 - expected_values:
-    TRANSITC_ACC_POS: 86
-  response: 7E80462032BAC
+    TRANSITC_ACC_POS: 94
+  response: 7E80462032BBC

@@ -4,5 +4,5 @@ test_cases:
     TRANSITC_GRILL_SHUT_DC: 0
   response: '7E80462070700'
 - expected_values:
-    TRANSITC_GRILL_SHUT_DC: 76.86275
-  response: 7E804620707C4
+    TRANSITC_GRILL_SHUT_DC: 78.82353
+  response: 7E804620707C9

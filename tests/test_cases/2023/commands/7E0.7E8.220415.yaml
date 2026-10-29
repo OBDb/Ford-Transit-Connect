@@ -4,8 +4,8 @@ test_cases:
     TRANSITC_PCM_ENG_EOP_RAW: 103
   response: '7E8056204150067'
 - expected_values:
-    TRANSITC_PCM_ENG_EOP_RAW: 274
-  response: '7E8056204150112'
-- expected_values:
     TRANSITC_PCM_ENG_EOP_RAW: 489
   response: 7E80562041501E9
+- expected_values:
+    TRANSITC_PCM_ENG_EOP_RAW: 514
+  response: '7E8056204150202'

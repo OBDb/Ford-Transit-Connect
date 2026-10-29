@@ -7,5 +7,5 @@ test_cases:
     TRANSITC_LPFP_ACT: 18.78282
   response: '7E8056205480103'
 - expected_values:
-    TRANSITC_LPFP_ACT: 77.81452
-  response: '7E8056205480431'
+    TRANSITC_LPFP_ACT: 77.59696
+  response: 7E805620548042E

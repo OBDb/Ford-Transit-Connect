@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TRANSITC_BAT_QUIESCENT: 46
   response: 72E05624025082C
+- expected_values:
+    TRANSITC_BAT_QUIESCENT: 50
+  response: '72E056240250834'

@@ -10,5 +10,5 @@ test_cases:
     TRANSITC_MAP_V: 1.25
   response: '7E8056203010500'
 - expected_values:
-    TRANSITC_MAP_V: 3.01758
-  response: 7E8056203010C12
+    TRANSITC_MAP_V: 3.29395
+  response: 7E8056203010D2D

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TRANSITC_NORM_CUM_CHG_IGN_ON: 13.7
   response: 72E0562401E0089
+- expected_values:
+    TRANSITC_NORM_CUM_CHG_IGN_ON: 13.8
+  response: 72E0562401E008A
