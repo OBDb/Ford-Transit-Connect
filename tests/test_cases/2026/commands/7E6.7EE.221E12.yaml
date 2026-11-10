@@ -1,5 +1,5 @@
 command_id: 7E6.7EE.221E12
 test_cases:
 - expected_values:
-    TRANSITC_GEAR_CMD: P
+    TRANSITC_GEAR_CMD: PARK
   response: 7EE04621E1246
