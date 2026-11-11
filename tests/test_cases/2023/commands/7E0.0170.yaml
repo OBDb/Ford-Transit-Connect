@@ -162,6 +162,22 @@ test_cases:
     7E82189000000000900
 - expected_values:
     BP_A: BP_A_CL
+    BP_A_ACT: 259.78125
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 244
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 1
+    BP_B: BP_B_CL
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    7E8100C4170071E8020
+    7E82179000000000A00
+- expected_values:
+    BP_A: BP_A_CL
     BP_A_ACT: 251.78125
     BP_A_ACT_SUP: 1
     BP_A_CMD: 250.78125
