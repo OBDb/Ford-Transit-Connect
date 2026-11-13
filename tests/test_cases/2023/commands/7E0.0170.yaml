@@ -52,7 +52,7 @@ test_cases:
     BP_A: BP_A_OL
     BP_A_ACT: 104.28125
     BP_A_ACT_SUP: 1
-    BP_A_CMD: 102.375
+    BP_A_CMD: 102.09375
     BP_A_CMD_SUP: 1
     BP_A_SUP: 1
     BP_B: BP_B_CL
@@ -62,7 +62,7 @@ test_cases:
     BP_B_CMD_SUP: 0
     BP_B_SUP: 0
   response: |-
-    7E8100C4170070CCC0D
+    7E8100C4170070CC30D
     7E82109000000000900
 - expected_values:
     BP_A: BP_A_CL
@@ -114,9 +114,9 @@ test_cases:
     7E821B6000000000900
 - expected_values:
     BP_A: BP_A_CL
-    BP_A_ACT: 259.78125
+    BP_A_ACT: 256.28125
     BP_A_ACT_SUP: 1
-    BP_A_CMD: 244
+    BP_A_CMD: 243.09375
     BP_A_CMD_SUP: 1
     BP_A_SUP: 1
     BP_B: BP_B_CL
@@ -126,8 +126,8 @@ test_cases:
     BP_B_CMD_SUP: 0
     BP_B_SUP: 0
   response: |-
-    7E8100C4170071E8020
-    7E82179000000000A00
+    7E8100C4170071E6320
+    7E82109000000000A00
 - expected_values:
     BP_A: BP_A_CL
     BP_A_ACT: 255.875
