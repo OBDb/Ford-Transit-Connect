@@ -4,7 +4,7 @@
   "commands": [
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "280B"}, "freq": 5,
   "signals": [
-    {"id": "TRANSITC_TYRE_T", "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Tire temperature"}
+    {"id": "TRANSITC_TYRE_T", "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Tire temperature"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2024, 2025], "from": 2027 },
   "signals": [
@@ -24,11 +24,11 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2024, 2025], "from": 2027 },
   "signals": [
-    {"id": "TRANSITC_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right inner tire pressure", "suggestedMetric": "rearRightTirePressure"}
+    {"id": "TRANSITC_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Rear right inner tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2818"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2024, 2025], "from": 2027 },
   "signals": [
-    {"id": "TRANSITC_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left inner tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "TRANSITC_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 150, "div": 20, "nullmax": 150, "unit": "psi" }, "name": "Rear left inner tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "401E"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -179,7 +179,7 @@
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "from": 2027 },
   "signals": [
-    {"id": "TRANSITC_BRK_FL_P", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Brake hydraulic pressure"}
+    {"id": "TRANSITC_BRK_FL_P", "path": "Control", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Brake hydraulic pressure"}
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], "from": 2027 },
   "signals": [
